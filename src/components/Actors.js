@@ -4,7 +4,7 @@ import { actors } from '../data';
 const Actors = () => {
   return (
     <div>
-      <h1>{"Actors Page"}</h1>
+      <h1>Actors Page</h1>
       {
         actors.map((x)=><div key={Math.random()} className="actor">
           <h1>{x.name}</h1>
