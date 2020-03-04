@@ -6,13 +6,13 @@ const Directors = () => {
     <div>
       <h1>Home Page</h1>
       {
-          directors.map((director)=>
+          directors.map((director)=>{
           <div key={Math.random()}>
           <h2>{director.name}<h2>
           <ul>
           {director.movies.map(gen=><li>gen</li>)}
           </ul>
-          </div>
+          </div>}
           )
         }
     </div>
