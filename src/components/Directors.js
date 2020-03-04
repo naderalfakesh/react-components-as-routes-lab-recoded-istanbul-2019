@@ -13,7 +13,7 @@ const Directors = () => {
           <ul>
           {director.movies.map(gen=><li>gen</li>)}
           </ul>
-          </div>}
+          </div>
           )
         }
     </div>
