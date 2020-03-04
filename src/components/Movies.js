@@ -8,7 +8,7 @@ const Movies = () => {
         {
           movies.map((movie)=>
           <div key={Math.random()}>
-          <h2>{movie.title}<h2>
+          <h2>{movie.title}</h2>
           <p>{movie.time}</p>
           <ul>
           {movie.genres.map(gen=><li>gen</li>)}
