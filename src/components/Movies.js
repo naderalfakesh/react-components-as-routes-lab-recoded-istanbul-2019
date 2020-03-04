@@ -7,7 +7,7 @@ const Movies = () => {
        <h1>Home Page</h1>
         {
           movies.map((movie)=>
-          <div>
+          <div key={Math.random()}>
           <h2>{movie.title}<h2>
           <p>{movie.time}</p>
           <ul>

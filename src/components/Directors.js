@@ -7,7 +7,7 @@ const Directors = () => {
       <h1>Home Page</h1>
       {
           directors.map((director)=>
-          <div>
+          <div key={Math.random()}>
           <h2>{director.name}<h2>
           <ul>
           {director.movies.map(gen=><li>gen</li>)}
